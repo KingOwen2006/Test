@@ -1,0 +1,68 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* WordPress post content styles */
+.wp-content h1,
+.wp-content h2,
+.wp-content h3,
+.wp-content h4 {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 1.2em 0 0.6em;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+}
+
+.wp-content p {
+  margin-bottom: 1em;
+  line-height: 1.7;
+}
+
+.wp-content a {
+  color: #ef4444;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.wp-content ul,
+.wp-content ol {
+  margin: 0.8em 0 0.8em 1.5em;
+  list-style: disc;
+}
+
+.wp-content ol {
+  list-style: decimal;
+}
+
+.wp-content li {
+  margin-bottom: 0.4em;
+}
+
+.wp-content img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 1em 0;
+}
+
+.wp-content blockquote {
+  border-left: 3px solid #dc2626;
+  padding-left: 1em;
+  margin: 1em 0;
+  color: rgba(255, 255, 255, 0.5);
+  font-style: italic;
+}
+
+.wp-content code,
+.wp-content pre {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.88em;
+  padding: 0.2em 0.4em;
+}
+
+.wp-content pre {
+  padding: 1em;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
